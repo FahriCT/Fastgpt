@@ -2,7 +2,7 @@ const axios = require('axios');
 const readlineSync = require('readline-sync');
 
 const fastGptApiKey = 'fastgpt-i1OpQp6PbNH3q92Z3pXPpo4zW1KyGh0M32Ab06KwTS75tdm8fZ5wrzbpkUHXLZsRc';
-const fastGptApiUrl = 'https://api.fastgpt.in/api/v1/chat/completions';
+const fastGptApiUrl = 'https://api.fastgpt.in/api/';
 
 async function askFastGPT(question) {
     const requestBody = {
